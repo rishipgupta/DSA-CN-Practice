@@ -1,5 +1,7 @@
-./.idea
-./out
-./bin
-./DSA-CN.iml
-./src/DSA-CN.iml
+/src/module-info.java
+/src/DSA-CN.iml
+/DSA-CN.iml
+
+/.idea/
+/bin/
+/out/
