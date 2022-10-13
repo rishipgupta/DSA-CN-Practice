@@ -7,8 +7,9 @@ public class RemoveDuplicatesRecursively {
             return s;
         }
         if (s.charAt(0) == s.charAt(1)) {
-            String smallStr = removeDuplicates(s.charAt(1)+s.substring(2));
-            return smallStr;
+//            String smallStr = removeDuplicates(s.charAt(1)+s.substring(2));
+//            return smallStr;
+            return removeDuplicates(s.substring(1));
         }else{
             String smallStr = removeDuplicates(s.substring(1));
             return s.charAt(0) + smallStr;
