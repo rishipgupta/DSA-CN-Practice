@@ -1,7 +1,12 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+
+/src/module-info.java
+/src/DSA-CN.iml
+/DSA-CN.iml
+
+/.idea/
+/bin/
+/out/
 
 ### Eclipse ###
 .apt_generated
@@ -28,5 +33,3 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-/.idea/
-/out/

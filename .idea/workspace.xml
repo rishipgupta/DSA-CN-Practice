@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16de232d-8bfe-444c-b7d7-417e96b2e4de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicjava/isPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicjava/isPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicjava/isPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicjava/IsPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loops_conditionals/FindLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loops_conditionals/FindLargestNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
