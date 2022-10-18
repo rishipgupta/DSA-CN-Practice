@@ -1,6 +1,6 @@
 package basicjava;
 
-public class isPrime {
+public class IsPrime {
     public static void isPrime(int n){
         boolean isPrimeNum = true;
         if(n==2){
