@@ -5,7 +5,7 @@ public class CountingOccurrences {
         int originalNum = n;
         int count = 0;
         //For numbers greater than or equal to 10
-        while(n/10 != 0){
+        while(n>0){
         int num = n%10;
             n = (n)/10;
             if(num==x){
@@ -13,15 +13,15 @@ public class CountingOccurrences {
             }
         }
         //For numbers less than 10
-        if(n/10==0){
-            if(n==x){
-                count++;
-            }
-        }
+//        if(n/10==0){
+//            if(n==x){
+//                count++;
+//            }
+//        }
         System.out.println(x + " occurs "+ count+ " times in " + originalNum );
     }
 
     public static void main(String[] args) {
-        countOccurence(1,1);
+        countOccurence(5000,0);
     }
 }
