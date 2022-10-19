@@ -7,7 +7,7 @@ public class CountingOccurrences {
         //For numbers greater than or equal to 10
         while(n/10 != 0){
         int num = n%10;
-            n = (n-num)/10;
+            n = (n)/10;
             if(num==x){
                 count++;
             }
@@ -22,6 +22,6 @@ public class CountingOccurrences {
     }
 
     public static void main(String[] args) {
-        countOccurence(10,8);
+        countOccurence(1,1);
     }
 }
