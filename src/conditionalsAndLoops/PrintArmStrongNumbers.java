@@ -1,5 +1,6 @@
 package conditionalsAndLoops;
-
+//Create separate functions check if number is armstrong
+// Separate function to print all three digit numbers
 public class PrintArmStrongNumbers {
     public static boolean isArmStrong(int n) {
         int a = n;
