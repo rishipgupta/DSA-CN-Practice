@@ -14,8 +14,20 @@ public class ReverseArr {
         return arr;
     }
 
+    public static int[] swap(int[] arr) {
+        System.out.println(Arrays.toString(arr));
+        for (int i = 0, j = arr.length - 1; i < arr.length / 2 && j >= arr.length / 2; i++, j--) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+        System.out.println(Arrays.toString(arr));
+        return arr;
+    }
+
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
-        reverse(arr);
+        int[] arr = {11, 12, 13, 14, 15, 16, 17, 18};
+//        reverse(arr);
+        swap(arr);
     }
 }
