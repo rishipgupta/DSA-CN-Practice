@@ -21,6 +21,13 @@ public class Main {
         //marks will give default value for floats
         System.out.println(s3.marks);
 
+        //Creating an object by calling empty constructor
+        Student s4 = new Student();
+        //The above code will be equivalient to :
+        //Student s4 = new Student(0,0f,"default name");
+        //Empty constructor will initiate the values passed to this keyword
+        //Here this keyword points to the constructor class;
+
     }
 }
 
@@ -38,6 +45,11 @@ class Student{
     Student(int rollNo, String name){
         this.rollNo = rollNo;
         this.name = name;
+    }
+
+    //Calling Constructor from another constructor using this keyword
+    Student(){
+        this(0,0f,"default name");
     }
 
     Student(int rollNo,float marks,String name){
