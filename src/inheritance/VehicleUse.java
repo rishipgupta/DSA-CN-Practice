@@ -10,7 +10,7 @@ public class VehicleUse {
         c.color  = "black";
         c.numDoors = 4;
         c.maxSpeed = 240;
-        //print method is inherited by Car from Vehicle
+        //print method is inherited by c from Car class
         c.print();
     }
 }
