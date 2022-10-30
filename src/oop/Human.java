@@ -10,4 +10,8 @@ public class Human {
         this.name = name;
         Human.population++;
     }
+
+//    void greeting(){
+//        System.out.println("Hello World");
+//    }
 }
