@@ -4,7 +4,11 @@ import inheritancetemp.Bike;
 
 public class VehicleUse {
     public static void main(String[] args) {
+        //Abstract classes can not be used to create objects
 //        Vehicle v = new Vehicle();
+        //However we can declare the object and use polymorphism logic
+        Vehicle v;
+        v = new Car(100,4);
 //        v.color = "Red";
         //Checking protected access modifier
         //maxSpeed is protected variable

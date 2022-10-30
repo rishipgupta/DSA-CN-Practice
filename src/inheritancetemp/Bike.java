@@ -10,6 +10,12 @@ public class Bike extends Vehicle {
             super.print();
             System.out.println("Bike print called");
         }
+
+        //Creating isMotorized method to answer abstract method defined in parent class.
+    @Override
+    public boolean isMotorized() {
+        return false;
+    }
 //    public static void main(String[] args) {
 //        Bike b = new Bike();
 //        b.maxSpeed = 100;

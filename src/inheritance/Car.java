@@ -12,4 +12,11 @@ public class Car extends Vehicle{
         super.print();
         System.out.println(color+ " " +maxSpeed+ " " +numDoors);
     }
+
+    //Creating isMotorized method
+    // that would answer the abstract method query of parent class Vehicle
+    @Override
+    public boolean isMotorized() {
+        return true;
+    }
 }
