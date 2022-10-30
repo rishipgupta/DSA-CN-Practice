@@ -4,7 +4,12 @@ package inheritance;
 public class Car extends Vehicle{
     int numDoors;
 
+    public Car(int maxSpeed, int numDoors){
+        super(maxSpeed);
+        this.numDoors = numDoors;
+    }
     public void print(){
+        super.print();
         System.out.println(color+ " " +maxSpeed+ " " +numDoors);
     }
 }
