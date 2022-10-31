@@ -11,8 +11,11 @@ public class ArrayListDemo {
         arr.add(20);
         arr.add(30);
         arr.add(1, 80);
-        System.out.println(arr.size());
-        System.out.println(arr.get(1));
+//        System.out.println(arr.size());
+//        System.out.println(arr.get(1));
+        for (int el:arr){
+            System.out.println(el);
+        }
 
         //To specify default capacity of ArrayList you can do that
         ArrayList<String> strArrList = new ArrayList<>(20);
